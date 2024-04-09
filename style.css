@@ -76,6 +76,17 @@ gap {
     right: 160px;
 }
 
+#blocorun {
+    background-color: #EF8964;
+    min-width: 180px;
+    height: 110px;
+}
+
+#blocorun h3 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
 
 section p {
     font-size: 16px;
@@ -203,8 +214,12 @@ button:hover {
 
 }
 
+.conteudo2 a:hover {
+    color: #134e7e;
+}
+
 .conteudo2 img {
-    padding-left: 69px;
+    margin-left: 102px;
 }
 
 .text2 h2 {
@@ -239,6 +254,10 @@ button:hover {
 
 }
 
+.conteudo3 a:hover {
+    color: #134e7e;
+}
+
 .text3 h2 {
     max-width: 526px;
     font-size: 40px;
@@ -267,7 +286,7 @@ button:hover {
 }
 
 .membertext {
-    width: 538px;
+    min-width: 538px;
     height: 640px;
     background-color: #323443;
     margin: 32px 69px;
@@ -319,6 +338,11 @@ button:hover {
 
     display: flex;
     justify-content: center;
+    gap: 10px;
+}
+
+.membercard a:hover {
+    color: #134e7e;
 }
 
 .membercard button {
@@ -333,15 +357,20 @@ button:hover {
 
     border: none;
     background-color: #0070C9;
-    padding: 4px 14px;
-    border-radius: 15px;
-    width: 150px;
+    padding-inline: 4px 14px 4px 14px;
+    border-radius: 5px;
+    min-width: 150px;
+    height: 30px;
 
     display: flex;
     align-items: flex-start;
     justify-content: center;
 
     cursor: pointer;
+}
+
+.membercard button:hover {
+    background-color: #134e7e;
 }
 
 

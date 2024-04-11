@@ -1,3 +1,16 @@
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #2c2c31;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -52,9 +65,20 @@ main {
     color: #f1f1f1;
 }
 
-#patrocinadores {
-    width: 599px;
+#palavra1 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #EFEDE8;
+    opacity: 65%;
+}
 
+#patrocinadores {
+    margin-left: 141px;
+}
+
+#huff{
+    width: 120px;
+  
 }
 
 h1 {
@@ -78,15 +102,120 @@ gap {
 
 #blocorun {
     background-color: #EF8964;
+    border-radius: 12px;
     min-width: 180px;
     height: 110px;
+
+    position: relative;
+    bottom: 280px;
+    right: 290px;
+}
+
+#blocorun img {
+    position: absolute; 
+    top: 18px; 
+    left: 29px;
+    width: 16px;
+
+    background: #EFA082;
+
+    border: 5px solid #EFA082;
+    border-radius: 50%;
 }
 
 #blocorun h3 {
+    color: #FAFAF9;
     font-weight: 700;
     font-size: 48px;
+    position: absolute; 
+    margin: 46px 60px 14px 26px;
+
+    letter-spacing: -5px;
 }
 
+#blocorun p {
+    color: #EFEDE8;
+    opacity: 0.65;
+    font-size: 16px;
+    width: 24px;
+    letter-spacing: 0.5px;
+
+    position: absolute;
+    margin: 70px 8px 16px 128px;
+}
+
+#blocovideo {
+    background-color: #303030;
+    border-radius: 12px;
+    min-width: 208px;
+    height: 96px;
+
+    position: relative;
+    top: 120px;
+    right: 900px;
+}
+
+#blocovideo img {
+    position: absolute; 
+    padding: 28px 143px 28px 23px;
+    width: 40px;
+}
+
+#blocovideo h3 {
+    color: #FAFAF9;
+    font-weight: 500;
+    font-size: 24px;
+    position: absolute; 
+    width: 64px;
+    padding: 0px 67px 52px 75px;
+
+    letter-spacing: 0.3px;
+}
+
+#blocovideo p {
+    color: #EFEDE8;
+    opacity: 0.65;
+    font-size: 16px;
+    width: 108px;
+
+    position: absolute;
+
+    padding: 42px 23px 20px 75px;
+    letter-spacing: 0.5px;
+}
+
+#bloco500 {
+    background-color: #7A29DC;
+    border-radius: 12px;
+    min-width: 193px;
+    height: 98px;
+
+    position: relative;
+    top: 220px;
+    right: 640px;
+
+}
+
+#bloco500 h3 {
+    color: #FAFAF9;
+    font-weight: 500;
+    font-size: 40px;
+    position: absolute; 
+    width: 109px;
+    margin: 17px 60px 41px 24px;
+
+}
+
+#bloco500 p {
+    color: #EFEDE8;
+    opacity: 0.65;
+    font-size: 13px;
+    width: 146px;
+
+    position: absolute;
+
+    margin: 62px 23px 16px 24px;
+}
 
 section p {
     font-size: 16px;
@@ -142,6 +271,8 @@ button:hover {
     font-size: 16px;
     color: #EFEDE8;
     opacity: 0.65;
+    margin-top: 24px;
+    margin-bottom: 50px;
 }
 
 .select h3 {
@@ -197,7 +328,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 164px 64px;
+    margin: 164px 64px 158px 64px;
     max-width: 1235px;
 
 }
@@ -216,10 +347,6 @@ button:hover {
 
 .conteudo2 a:hover {
     color: #134e7e;
-}
-
-.conteudo2 img {
-    margin-left: 102px;
 }
 
 .text2 h2 {
@@ -251,6 +378,7 @@ button:hover {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-top: 50px;
 
 }
 
@@ -267,6 +395,7 @@ button:hover {
 .text3 p {
     font-size: 14px;
     max-width: 480px;
+    margin-top: 40px;
 }
 
 .linha {
@@ -357,8 +486,7 @@ button:hover {
 
     border: none;
     background-color: #0070C9;
-    padding-inline: 4px 14px 4px 14px;
-    border-radius: 5px;
+    border-radius: 10px;
     min-width: 150px;
     height: 30px;
 
@@ -372,7 +500,6 @@ button:hover {
 .membercard button:hover {
     background-color: #134e7e;
 }
-
 
 
 
